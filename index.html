@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>호텔방 사용 안내 및 게시판</title>
+    <style>
+        :root {
+            --primary-color: #4B89DC; /* 밝은 청색 */
+            --secondary-color: #F76C6C; /* 연한 붉은색 */
+            --background-color: #F4F4F4; /* 연한 회색 */
+            --text-color: #333;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            background-color: var(--background-color);
+            color: var(--text-color);
+        }
+        header, footer {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 20px 40px;
+            text-align: center;
+        }
+        section {
+            margin: 20px 40px;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: var(--primary-color);
+        }
+        a {
+            color: var(--secondary-color);
+            text-decoration: none;
+        }
+        p, label {
+            margin: 10px 0;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            box-sizing: border-box; /* Adds padding and border to element's total width and height */
+        }
+        button {
+            background-color: var(--secondary-color);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 10px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        footer {
+            background-color: var(--secondary-color);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>호텔방 사용 안내 및 커뮤니티 게시판</h1>
+    </header>
+    <section>
+        <h2>체크인 및 체크아웃</h2>
+        <p>ㅇㅇㅇ</p>
+    </section>
+    <section>
+        <h2>호텔방 사용 규칙</h2>
+        <p>ㅇㅇㅇ</p>
+    </section>
+    <section>
+        <h2>편의 시설 및 서비스</h2>
+        <p>ㅇㅇㅇ</p>
+    </section>
+    <section>
+        <h2>금지 사항</h2>
+        <p>ㅇㅇㅇ</p>
+    </section>
+    <section>
+        <h2>안전 수칙</h2>
+        <p>ㅇㅇㅇ</p>
+    </section>
+    <section>
+        <h2>질의응답 게시판</h2>
+        <form>
+            <label for="question">질문하기:</label>
+            <textarea id="question" name="question" rows="4" placeholder="여기에 질문을 입력하세요..."></textarea>
+            <button type="submit">질문 등록</button>
+        </form>
+    </section>
+    <section>
+        <h2>사용 후기 게시판</h2>
+        <form>
+            <label for="review">후기 작성:</label>
+            <textarea id="review" name="review" rows="4" placeholder="여기에 후기를 입력하세요..."></textarea>
+            <button type="submit">후기 등록</button>
+        </form>
+    </section>
+    <footer>
+        <p>문의사항이 있으시면 언제든지 연락 주세요. 연락처: ㅇㅇㅇ</p>
+    </footer>
+</body>
+</html>
