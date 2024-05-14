@@ -65,14 +65,17 @@
         }
         .social-links a {
             margin: 0 10px;
-            display: inline-block;
+            font-size: 24px; /* 아이콘 크기 조절 */
+            color: var(--primary-color); /* 아이콘 색상 조절 */
         }
 
-        .social-links img {
-            width: 24px; /* 조정 가능 */
-            height: auto;
+        .social-links a:hover {
+            color: var(--secondary-color); /* 마우스 오버 시 색상 변경 */
         }
+
     </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 </head>
 <body>
     <header>
@@ -118,18 +121,19 @@
         <p>문의사항이 있으시면 언제든지 연락 주세요. 연락처: ㅇㅇㅇ</p>
         <div class="social-links">
             <!-- Facebook Messenger 링크 -->
-            <a href="https://m.me/ㅇㅇㅇ" target="_blank">
-                <img src="facebook_icon.png" alt="Facebook Messenger" />
+            <a href="https://m.me/your_username" target="_blank" class="fa fa-facebook-messenger">
+                <i class="fab fa-facebook-messenger"></i>
             </a>
             <!-- Instagram DM 링크 -->
-            <a href="https://instagram.com/direct/inbox/ㅇㅇㅇ" target="_blank">
-                <img src="instagram_icon.png" alt="Instagram DM" />
+            <a href="https://instagram.com/your_username" target="_blank" class="fa fa-instagram">
+                <i class="fab fa-instagram"></i>
             </a>
             <!-- KakaoTalk 채팅 링크 -->
-            <a href="https://open.kakao.com/o/ㅇㅇㅇ" target="_blank">
-                <img src="kakaotalk_icon.png" alt="KakaoTalk Chat" />
+            <a href="https://open.kakao.com/o/your_kakaotalk_id" target="_blank" class="fa fa-comment">
+                <i class="fas fa-comment"></i>
             </a>
         </div>
+        
         
         
     </footer>
