@@ -2,7 +2,8 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title> Welcome to Crystal SeoCho </title>
+    <title>Welcome to Crystal SeoCho</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         :root {
             --primary-color: #4B89DC; /* 밝은 청색 */
@@ -46,7 +47,7 @@
             margin-top: 5px;
             border-radius: 4px;
             border: 1px solid #ccc;
-            box-sizing: border-box; /* Adds padding and border to element's total width and height */
+            box-sizing: border-box;
         }
         button {
             background-color: var(--secondary-color);
@@ -60,22 +61,14 @@
             cursor: pointer;
             border-radius: 4px;
         }
-        footer {
-            background-color: var(--secondary-color);
-        }
         .social-links a {
             margin: 0 10px;
-            font-size: 24px; /* 아이콘 크기 조절 */
-            color: var(--primary-color); /* 아이콘 색상 조절 */
+            font-size: 24px;
         }
-
         .social-links a:hover {
-            color: var(--secondary-color); /* 마우스 오버 시 색상 변경 */
+            color: var(--secondary-color);
         }
-
     </style>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
 </head>
 <body>
     <header>
@@ -121,21 +114,18 @@
         <p>문의사항이 있으시면 언제든지 연락 주세요. 연락처: ㅇㅇㅇ</p>
         <div class="social-links">
             <!-- Facebook Messenger 링크 -->
-            <a href="https://m.me/your_username" target="_blank" class="fa fa-facebook-messenger">
+            <a href="https://m.me/your_username" target="_blank" aria-label="Facebook Messenger">
                 <i class="fab fa-facebook-messenger"></i>
             </a>
             <!-- Instagram DM 링크 -->
-            <a href="https://instagram.com/your_username" target="_blank" class="fa fa-instagram">
+            <a href="https://instagram.com/your_username" target="_blank" aria-label="Instagram">
                 <i class="fab fa-instagram"></i>
             </a>
             <!-- KakaoTalk 채팅 링크 -->
-            <a href="https://open.kakao.com/o/your_kakaotalk_id" target="_blank" class="fa fa-comment">
+            <a href="https://open.kakao.com/o/your_kakaotalk_id" target="_blank" aria-label="KakaoTalk">
                 <i class="fas fa-comment"></i>
             </a>
         </div>
-        
-        
-        
     </footer>
 </body>
 </html>
